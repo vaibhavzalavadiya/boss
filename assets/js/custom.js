@@ -75,6 +75,7 @@ var swiper = new Swiper(".product-slider", {
     nextEl: ".product-arrow.swiper-button-next",
     prevEl: ".product-arrow.swiper-button-prev",
   },
+
   breakpoints: {
 
     1100: {
@@ -90,7 +91,12 @@ var swiper = new Swiper(".product-slider", {
       slidesPerView: 1,
     },
   },
+  
 });
+
+
+
+
 
   // testimonial-slider-start
   function initSwiper() {
