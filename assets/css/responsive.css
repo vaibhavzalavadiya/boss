@@ -91,7 +91,10 @@
     gap: 10px;
     margin-top: 20px;
 }
-
+#button{
+  height: 38px  !important;
+  width: 38px !important;
+}
 
   .swiper-button-prev,
   .swiper-button-next {
