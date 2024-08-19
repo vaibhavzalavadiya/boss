@@ -2463,3 +2463,30 @@ sup {
     font-weight: 600;
 }
 /****** mobile wrapper CSS ********/
+/* scroll up  start */
+#button {
+    display: inline-block;
+    background-color:rgb(227, 110, 37);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+    padding: 5px;
+}
+
+.scroll-btn svg path {
+    fill: var(--black);
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
