@@ -206,6 +206,9 @@
     margin-top: 30px;
     padding-top: 40px;
   }
+  .about-sec .row{
+    padding-bottom: 30px;
+  }
   .common-banner-sec li a {
     font-size: 18px;
   }
