@@ -42,6 +42,14 @@
   .filter-cat li:not(:last-child):after {
     font-size: 24px;
   }
+  .about-sec span{
+    font-size: 30px;
+
+}
+.about-sec .counting {
+    font: normal 400 30px/1 var(--first-font);
+}
+
 }
 @media screen and (max-width: 992px) {
   .menu-item-left {
@@ -134,6 +142,7 @@
   .filter-cat li:not(:last-child):after {
     font-size: 20px;
   }
+
   .site-footer .footer-col {
     flex: 0 0 100%;
     max-width: 100%;
@@ -193,6 +202,10 @@
   .testimonial-sec .testimonial-content h3 {
     font: var(--h5);
   }
+  .about-sec{
+    margin-top: 30px;
+    padding-top: 40px;
+  }
   .common-banner-sec li a {
     font-size: 18px;
   }
@@ -201,6 +214,11 @@
   }
   .filter-cat li:not(:last-child):after {
     font-size: 18px;
+  }
+  .about-sec span{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 400px) {

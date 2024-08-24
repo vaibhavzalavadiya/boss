@@ -2275,6 +2275,48 @@ sup {
         /* margin-top: 20px; */
     }
 
+    
+/* about-counter-sec-start */
+.about-sec {
+    background-color: #212f3c;
+    margin-top: 50px;
+    padding-top: 50px;
+    color: var(--white);
+}
+.about-sec .row {
+    padding-bottom: 50px;
+}
+
+.about-sec .counter-item {
+    text-align: center;
+}
+.about-sec span{
+    font-size: 45px;
+    text-transform: capitalize;
+    display: block;
+}
+.about-sec .counting {
+    position: relative;
+    margin-bottom: 10px;
+    font: normal 400 50px/1 var(--first-font);
+    color: var(--white);
+}
+
+.about-sec .counting::after {
+    content: " +";
+    display: inline-block;
+}
+
+.about-sec .counting-letter::after {
+    content: "year";
+}
+
+.about-sec .row .counter-item p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
 /********* FOOTER STYLE  CSS START ********/
 .site-footer {
