@@ -23,6 +23,17 @@
     display: none;
   }
 }
+@media (hover: hover) {
+    .site-header .main-navigationbar .main-nav li>a:hover::before,
+    .site-header .main-navigationbar .main-nav>li.menu_active>a::before,
+    .site-header .megamenu-card:hover .megamenu-content a:before,
+    .site-footer .footer-widget ul li a:hover:after,
+    .site-footer .footer-contacts li a:hover span:after {
+        opacity: 1;
+        width: 100%;
+        visibility: visible;
+    }
+  }
 @media screen and (max-width: 1199px) {
   :root {
     --h1: normal 600 40px/1.1 var(--first-font);

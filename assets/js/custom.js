@@ -173,5 +173,25 @@ var swiper = new Swiper(".product-slider", {
       });
   });
 
-    });
-    
+
+
+
+
+/********* On scroll heder Sticky *********/
+function initHeaderSticky() {
+  if (jQuery(document).height() > jQuery(window).height()) {
+      if (jQuery(this).scrollTop() > 250) {
+        jQuery('.site-header').addClass("fixed");
+      } else {
+        jQuery('.site-header').removeClass("fixed");
+      }
+    } 
+  }
+$(document).ready(function () {
+  initHeaderSticky()
+});
+$(window).on('resize scroll', function () {
+  initHeaderSticky()
+});
+
+});
