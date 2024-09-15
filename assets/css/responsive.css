@@ -171,7 +171,7 @@
     display: block;
     text-transform: capitalize;
     font-family: var(--second-font);
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .site-footer .footer-col .footer-widget .footer-acnav svg {
@@ -233,6 +233,9 @@
     display: block;
     font-size: 18px;
     margin-bottom: 10px;
+  }
+  .about-sec .counting{
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 400px) {

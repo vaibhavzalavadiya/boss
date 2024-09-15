@@ -1588,8 +1588,11 @@ sup {
 .site-header {
     position: relative;
     background-color: var(--white);
+    box-shadow: 0px 4px 30px rgba(24, 58, 64, 0.12);
+    width: 100%;
 }
 .site-header.fixed .sticky-header {
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
@@ -1607,6 +1610,7 @@ sup {
     -o-transition: all 500ms ease-in-out;
     -ms-transition: all 500ms ease-in-out;
 }
+
 
 .site-header .announcebar {
     position: relative;
